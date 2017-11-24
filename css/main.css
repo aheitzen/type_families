@@ -1,0 +1,52 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(10deg, #002699 50%, white 10%);
+	margin: 0;
+	position: fixed;
+}
+
+.dead-center {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+	text-align: center;
+	color: #0040ff;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: center;
+	color: #0040ff;
+	font-size: 40px;
+}
+
+h1#main-serif {
+	font-family: 'Libre Baskerville', serif;
+}
+
+h2#second-serif {
+	font-family: 'Playfair Display', serif;
+}
+
+h1#main-ss {
+	font-family: 'Jaldi', sans-serif;
+	color: white;
+	margin-top: 100px;
+}
+
+h2#second-ss {
+	font-family: 'Martel Sans', sans-serif;
+	color: white;
+}
+
+
+
+
+
